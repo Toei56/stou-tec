@@ -2,6 +2,7 @@ package StouTec;
 
 public class StouTecMain {
     public static void main(String[] args) {
-        new StouTec();
+        StouTec stou = new StouTec();
+        stou.showForm();
     }
 }
