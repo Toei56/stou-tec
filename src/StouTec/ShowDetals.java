@@ -8,7 +8,6 @@ public class ShowDetals extends JFrame {
     final int mX_AP = 50;
 
     JPanel mShow = new JPanel();
-    StouTec st = new StouTec();
 
     ShowDetals(StouTec stou) {
         setTitle("Detals");
