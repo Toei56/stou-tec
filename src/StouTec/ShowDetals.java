@@ -33,7 +33,6 @@ public class ShowDetals extends JFrame {
         mShow.add(ap_name);
         mShow.add(result_ap_name);
 
-
         JLabel ap_address = new JLabel("ที่อยู่  : ");
         JLabel result_ap_address = new JLabel(stou.mTfData[2].getText());
         ap_address.setBounds(mX_AP,115,mWIDTH_LAB,mHEIGTH_LAB);
@@ -128,7 +127,7 @@ public class ShowDetals extends JFrame {
         JButton edit = new JButton("แก้ไข");
         edit.setBounds(mX_AP,380,70,mHEIGTH_LAB);
         mShow.add(edit);
-        edit.addActionListener(e -> stou.showForm());
+        edit.addActionListener(e -> setVisible(false));
 
         int count = mShow.getComponentCount();
         for (int i = 0; i < count; i++) {
